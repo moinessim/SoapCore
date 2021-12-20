@@ -13,7 +13,7 @@ using SoapCore.ServiceModel;
 
 namespace SoapCore
 {
-	internal class ServiceBodyWriter : BodyWriter
+	public class ServiceBodyWriter : BodyWriter
 	{
 		private readonly SoapSerializer _serializer;
 		private readonly OperationDescription _operation;
